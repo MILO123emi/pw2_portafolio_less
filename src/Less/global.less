@@ -1,0 +1,95 @@
+nav { 
+    max-height: 50px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: @primary_color;
+    color: @primary_text;
+
+}
+nav ul{ 
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+       
+}
+nav ul li a {
+    font-size: 12px;
+    color: @primary_text;
+    text-decoration: none;
+}
+
+body { 
+    background-color: @secondary_color;
+}
+h1, h2, h3 {
+    color: @tertiary_text;
+}
+
+
+
+#foto_mia {
+    max-width: 40%;
+    height: auto;
+
+}
+
+#encabezado{
+    margin-top: 40px; 
+    display: flex; 
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div#about_me{ 
+    margin-top: 50px;
+    background-color: @secondary_color;
+    padding: 30px; 
+    border-radius: 30px;
+}
+
+div#about_me *{ 
+    color: black;
+}
+h2#h2proy{ 
+    margin-left: 15px;
+    margin-top: 50px;
+    color:white;
+    background-color: black;
+    max-width: 7rem;
+    padding: 10px;
+    border-radius: 30px;
+
+    /* IMPORTANTE */
+    display: inline-block;
+    transform: skewX(-16deg);
+    transform-origin: bottom left;
+    /* Como no sabia como hacer el efexto lo busque en linea entonces copie como hacerlo ya que no sabia */
+}
+
+
+.proy1, .proy2, .proy3, .proy4 {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;    
+    margin-top: 30px;
+    background-color: @secondary_color;
+    padding: 15px;
+    border-radius: 30px;
+
+}
+.proy1 p, .proy2 p, .proy3 p, .proy4 p {
+    color: @tertiary_text;
+}
+.proy1 h2, .proy2 h2, .proy3 h2, .proy4 h2 {
+    color: @tertiary_text;
+}
+
+
+.image img { 
+    max-width: 80%;
+    height: auto;
+}
+
